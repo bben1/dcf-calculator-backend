@@ -19,10 +19,10 @@ def test(request):
         # print(body)
         ticker = body["ticker"]
         earningsGrowthRate = body["earningsGrowthRate"]
-        earningsGrowthRate = body["earningsGrowthRate"]
+        # earningsGrowthRate = body["earningsGrowthRate"]
         capExGrowthRate = body["capExGrowthRate"]
         perpetualGrowthRate = body["perpetualGrowthRate"]
-        bound = body["bound"]
+        # bound = body["bound"]
         # confidenceIntervals = body["confidenceIntervals"]
         # confidenceIntervalMax = body["confidenceIntervalMax"]
         api = '98c7e0304749128f76f1aabf30e3e165'

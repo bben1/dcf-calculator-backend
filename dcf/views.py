@@ -77,8 +77,8 @@ def test(request):
                 "ticker": ticker,
                 "earningsGrowthRate": earningsGrowthRate,
                 "capExGrowthRate": capExGrowthRate,
-                "perpetualGrowthRate": perpetualGrowthRate,
-                "bound": bound,
+                "perpetualGrowthRate": perpetualGrowthRate
+                # "bound": bound,
                 # "confidenceIntervalMin": confidenceIntervalMin,
                 # "confidenceIntervalMax": confidenceIntervalMax
             },

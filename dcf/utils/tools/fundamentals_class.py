@@ -45,7 +45,10 @@ class Fundamentals:
 
         #Interest Coverage
         interest_expense = self.inc[0]['interestExpense']
-        self.interest_coverage_ratio = EBIT / interest_expense
+        if interest_expense <= 0:
+            self.interest_coverage_ratio = 7
+        else:
+            self.interest_coverage_ratio = EBIT / interest_expense
 
         #Risk-free rate
         # start = datetime.datetime(2020, 7, 10)
